@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = ">=1.2.4<1.3.0"
+ipykernel = "*"
+matplotlib = "*"
+scipy = "*"
+sklearn = "*"
+seaborn = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
+
